@@ -5,7 +5,7 @@ import smtplib
 import os
 
 my_email = os.environ.get("MY_EMAIL")
-PASSWORD = os.envrion.get("PASSWORD")
+PASSWORD = os.environ.get("PASSWORD")
 
 # 1. Update the birthdays.csv
 def check_birthday():
