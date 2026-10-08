@@ -23,7 +23,7 @@ jobs:
 
       - name: Check secrets are configured
         env:
-          my_email: ${{ secrets.MY_EMAIL }}
+          MY_EMAIL: ${{ secrets.MY_EMAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           if [ -z "$MY_EMAIL" ]; then
