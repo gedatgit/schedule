@@ -43,4 +43,4 @@ jobs:
           # Add more secrets in Settings > Secrets > Actions
           MY_EMAIL: ${{ secrets.MY_EMAIL }}
           PASSWORD: ${{ secrets.PASSWORD }}
-        run: python main.py
+        run: python e_mailer.py
