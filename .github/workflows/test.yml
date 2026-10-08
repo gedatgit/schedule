@@ -49,10 +49,10 @@ jobs:
         run: |
           echo "Checking for required files..."
 
-          if [ -f "main.py" ]; then
-            echo "main.py found"
+          if [ -f "emailer.py" ]; then
+            echo "emailer.py found"
           else
-            echo "main.py not found!"
+            echo "emailer.py not found!"
             exit 1
           fi
 
